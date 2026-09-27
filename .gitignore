@@ -1,7 +1,6 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-Entrega del Data Pack (Oleada 1)/
 data/
 *.tmp
 ~$*

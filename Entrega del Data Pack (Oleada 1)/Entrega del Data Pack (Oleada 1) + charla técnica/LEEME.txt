@@ -1,0 +1,19 @@
+DATA PACK — CIUDAD AETHERA · OLEADA 1
+=====================================
+
+Contenido:
+  PackDataset_Oleada1/
+    - D1_wellbeing_survey.csv    Encuesta de Bienestar (12.000 respuestas)
+    - D2_support_services.csv    Uso de Servicios de Apoyo (9.400 eventos, 18 meses)
+    - D3_academic_trajectory.csv Trayectoria Academica (130.000 registros)
+    - D6_services_map.geojson    Mapa de Servicios (15 servicios)
+    - D7_calendar.csv / .ics     Calendario Academico (32 eventos)
+    - DATA_DICTIONARY.xlsx       Diccionario de datos (referencia principal)
+  Guia_Entendimiento_de_Datasets.pdf   Guia de lectura y uniones
+
+Llaves para cruzar los datasets:
+  - student_id : une D1 <-> D2 <-> D3
+  - service_id : une D2 <-> D6
+  - period_id  : une D3 <-> D7
+
+Nota: datos 100% sinteticos, creados para el desafio. Sin informacion personal real.
